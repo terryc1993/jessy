@@ -59,6 +59,7 @@ function makeSound(key){
           break;
         default: var wrong = new Audio("sounds/wrong.mp3");
         document.querySelector(".message").innerHTML = "Still needs recovery😥";
+      wrong.play();
 
 
   }
